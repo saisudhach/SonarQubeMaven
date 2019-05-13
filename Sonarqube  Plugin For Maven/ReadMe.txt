@@ -32,7 +32,7 @@ Install Java 8 and Maven on your computer and Set the JAVA_HOME in environment v
             </activation>
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url> http://localhost:9000 </sonar.host.url>
+                <sonar.host.url> http://localhost:9009 </sonar.host.url>
 	<--Uncomment below few lines if you are using external databases(Oracle/DB2/Mysql) -->
  <!--  <sonar.jdbc.url>your database url</sonar.jdbc.url>
 <sonar.jdbc.driver>your DB driver</sonar.jdbc.driver>
@@ -47,4 +47,4 @@ Install Java 8 and Maven on your computer and Set the JAVA_HOME in environment v
 
 7) Run maven command mvn sonar:sonar
 
-8) Open the web browser and access the http://localhost:9000
+8) Open the web browser and access the http://localhost:9009
